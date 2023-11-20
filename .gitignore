@@ -3,6 +3,12 @@
 # dependencies
 node_modules/
 
+# testing
+/coverage
+
+# production
+/build
+
 # Expo
 .expo/
 dist/
@@ -15,6 +21,12 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
+
+#linters
+.vscode/
+.eslintrc.json
+.prettierrc.json
+.prettierignore
 
 # Metro
 .metro-health-check*
