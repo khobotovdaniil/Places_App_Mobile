@@ -33,6 +33,12 @@
           "cameraPermission": "The app needs access to your camera in order to take photos of your favorite places.",
           "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "The app needs access to your location in order to save the location of your favorite places."
+        }
       ]
     ]
   }
