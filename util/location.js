@@ -7,5 +7,5 @@ export function getMapPreview(lat, lng) {
   console.log(lng)
   const imagePreviewUrl = `https://static-maps.yandex.ru/v1?ll=${lat},${lng}&size=${width},${height}&z=${zoom}&pt=${lat},${lng},pm2blm10~${lat},${lng}&apikey=${API_KEY}`
   const test = `https://static-maps.yandex.ru/v1?ll=${lat},55.753630&lang=en&size=${width},${height}&z=${zoom}&pt=${lat},55.753630&apikey=${API_KEY}`
-  return test
+  return imagePreviewUrl
 }
